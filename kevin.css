@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #e0f7fa; 
+}
+
+header {
+    background-color: #81d4fa; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.get-started-button {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    height: 400px; 
+    overflow: hidden;
+    background: #81d4fa; 
+    background-image: url('sua-imagem-de-paisagem.jpg'); 
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+
+.white-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 80px 20px;
+    clip-path: path('M0,160L60,176C120,192,240,224,360,202.7C480,181,600,107,720,85.3C840,64,960,96,1080,112C1200,128,1320,128,1380,128L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z');
+    text-align: center; 
+    z-index: 2; 
+
+.hero-content {
+    color: #333; 
+    text-align: center;
+    width: 80%;
+    max-width: 960px;
+    z-index: 3; 
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.landscape-text {
+    color: #333; 
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.landscape-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.more-info-button {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px; 
+}
+
+header .logo img {
+    height: auto; 
+    width: auto; 
+    max-height: 70px; 
+}
